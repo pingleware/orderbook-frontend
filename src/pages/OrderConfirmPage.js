@@ -3,7 +3,7 @@ import queryString from 'query-string';
 import OrderConfirm from '../components/Order/OrderConfirm';
 
 /*
-    로직이 Container로 나눌만큼 크지 않아 Page에서 수행
+    The logic is not big enough to be divided into containers, so it is performed on the page.
 */
 class OrderConfirmPage extends React.Component {
     handleClickConfirm = () => {

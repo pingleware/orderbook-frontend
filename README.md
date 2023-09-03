@@ -1,13 +1,13 @@
-# 모두의 주문
+# Everyone's Order
 
-## Demo 접속 방법
+## Demo Access Method
 
-### QR 코드 사용
+### QR Redeem Code
 
-아래의 QR 코드를 스캐너를 이용해 접속하세요
+Access the QR code below using the scanner
 
 ![Frame](/docs/assets/frame.png)
 
-### URL 사용
+### URL use
 
-[클릭](http://orderbook.logostory.io/#?shopId=2)
+[Click](http://orderbook.logostory.io/#?shopId=2)

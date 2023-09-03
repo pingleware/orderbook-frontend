@@ -16,10 +16,10 @@ import configureAndConnectOAUthInterceptor from './utils/oauthInterceptor';
 
 /*
 Q.
-    초기 상태인 preLoadedState는 configure에 인자로 전달합니다.
+    The initial state, preLoadedState, is passed as an argument to configure.
 
 A.
-    preloadedStore 필요 없어서 제거했습니다 :)
+   I removed the preloadedStore because I didn't need it :)
 */
 // logger는 마지막에 놓아야 합니다. 다른 Middleware가 전처리하기 전의 Action이 통과되기 때문입니다.
 const store = createStore(reducers, {}, applyMiddleware(ReduxThunk, logger));

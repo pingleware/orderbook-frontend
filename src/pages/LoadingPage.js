@@ -16,12 +16,12 @@ const LoadingPage = ({ location: { search }, history }) => {
 
 /*
 Q:
-    withRouter를 Page에도 쓸 필요가 있는가?
+    Do I need to use withRouter for Page as well?
 
 A:
-    <Route exact path="/" component={LoadingPage} /> 와 같이
-    Route의 component로 전달되는 컴포넌트에는 React-router가 제공하는
-    props가 기본적으로 전달되므로, withRouter HoC를 쓸 필요가 없습니다.
+    <Route exact path="/" component={LoadingPage} /> together with
+     The component passed to the component of the route is provided by React-router.
+     Props are passed by default, so there is no need to write withRouter HoC.
 
 */
 

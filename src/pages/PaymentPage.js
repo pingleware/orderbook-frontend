@@ -8,7 +8,7 @@ import FooterContainer from 'containers/FooterContainer';
 import { getLastOrderId } from '../modules/Cart';
 
 /*
-    Payment 페이지에서 Order를 요청하고 number를 받아와야 함
+    You need to request an order on the payment page and get a number
 */
 const PaymentPage = ({
     history, makeOrder, orderDone, lastOrderId,
